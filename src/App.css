@@ -1,5 +1,16 @@
 body {
   color: white;
+  font-family: "Darker Grotesque";
+  font-size: 19px;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 .App {
@@ -10,15 +21,27 @@ body {
 }
 
 .header {
+  display: flex;
+  justify-content: center;
   flex-direction: column;
+  align-items: center;
   width: 100%; 
   max-width: 900px; 
-  height: 90px;
+  height: auto; /* Adjust height to auto */
   padding: 20px; 
-  margin: 10px; 
+  animation: fadeInAnimation ease 3s; /* Apply the animation to .header */
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;margin: 10px; 
 }
 
+.font {
+  font-family: "Meow Script";
+  font-size: 50px
+}
+
+.header h1,
 .header p {
+  margin: 5px 0;
   display: flex;
   align-items: center;
 }
@@ -27,16 +50,6 @@ body {
   margin-left: 20px; 
   margin-right: 5px;
 }
-
-/*.info {
-  width: 100%;
-  max-width: 1000px;
-  background-color: rgba(206, 206, 206, 0.2);
-  padding: 20px; 
-  margin: 10px; 
-  box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
-  
-}*/
 
 .timeline {
   display: flex;
@@ -47,6 +60,9 @@ body {
   padding: 20px; 
   margin: 10px; 
   box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
+  animation: fadeInAnimation ease 3s; /* Apply the animation to .header */
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 
 .timeline-item {

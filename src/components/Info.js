@@ -25,17 +25,17 @@ const Info = () => {
     {
       date: 'March 2023 - April 2024',
       title: 'Salesperson, Sokos Rovaniemi',
-      content: 'Worked as a software engineer at Example Corp. Developed and maintained software applications.'
+      content: 'Part-time'
     },
     {
       date: 'May 2022 - July 2022',
       title: 'Intern, Kuntien Tiera oy',
-      content: 'Served as a frontend developer at Another Company. Implemented user interfaces for web applications.'
+      content: 'Intern at information management department'
     },
     {
       date: 'March 2018 - August 2021',
       title: 'Barista, Fazer Ravintolat oy',
-      content: 'Served as a frontend developer at Another Company. Implemented user interfaces for web applications.'
+      content: 'Started as a part-time, ended as full-time'
     }
   ];
 

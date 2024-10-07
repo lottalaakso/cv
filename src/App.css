@@ -60,7 +60,7 @@ body {
   padding: 20px; 
   margin: 10px; 
   box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
-  animation: fadeInAnimation ease 3s; /* Apply the animation to .header */
+  animation: fadeInAnimation ease 3s; 
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }

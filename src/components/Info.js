@@ -23,9 +23,9 @@ const Timeline = ({ items }) => (
 const Info = () => {
   const timelineItems = [
     {
-      date: 'March 2023 - April 2024',
-      title: 'Salesperson, Sokos Rovaniemi',
-      content: 'Part-time'
+      date: 'September 2024 - ',
+      title: 'Intern, Sotek-säätiö sr',
+      content: 'ICT Intern and Thesis worker'
     },
     {
       date: 'May 2022 - July 2022',
